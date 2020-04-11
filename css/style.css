@@ -1,0 +1,194 @@
+body {
+min-height: 75rem;
+padding-top: 4.5rem;
+}
+.pvr_title{
+  font-size: 100px;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 100%;
+height: 100%;
+text-shadow: 2px 2px 80px black;
+}
+h1{
+  font-family: fantasy;
+}
+.top_bottom{
+margin-top:10px;
+margin-bottom:20px;
+}
+.nounderline {
+  text-decoration: none !important
+}
+.our_products{
+height: 350px; width: 100%; display: block;
+}
+.parallax {
+/* The image used */
+background-image: url("../images/ban.jpg");
+
+/* Set a specific height */
+min-height: 400px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.why{
+  min-height: 300px;
+  max-height: 400px;
+  background:  url("../images/homepage.jpg") no-repeat ;
+  background-position: center;
+  background-size: cover;
+}
+.crs{
+  min-height: 300px;
+  max-height: 400px;
+  background:  url("../images/ban3.jpg") no-repeat ;
+  background-position-y:60%;
+  background-size: cover;
+}
+.contact_us{
+  min-height: 300px;
+  max-height: 400px;
+  background:  url("../images/contact_us.jpg") no-repeat ;
+  background-position-y:45%;
+  background-size: cover;
+}
+/* .testimonial-text{
+  min-height: 150px;
+  max-height: 200px;
+  background:  url("../images/pen_write.jpg") no-repeat ;
+  background-position: right;
+
+} */
+
+.circle_div{
+    border: 4px solid #cceeff;
+    -webkit-border-radius: 125px;
+ padding: 8% 1.2%;
+  vertical-align: middle;
+  margin: 10px;
+    width:250px;
+    height: 250px;
+    text-align: center;
+  overflow-wrap: break-word;
+}
+.coonectivity_img{
+
+  margin: 5px;
+  border: 1px solid white;
+}
+.temonial_cards{
+  overflow: hidden;
+  min-width: 100px;
+  max-width: 300px;
+  margin:15px;
+  padding:5px;
+  text-align: center;
+  height: 450px;
+  background-color: white;
+
+  }
+  .temonial_cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    }
+    .center_content {
+      margin: auto;
+      width: 50%;
+      border: 3px solid green;
+      padding: 10px;
+    }
+
+    .im-xlarge{font-size:24px!important}
+    .im-xxlarge{font-size:36px!important}
+    .im-xxxlarge{font-size:48px!important}
+    .im-jumbo{font-size:64px!important}
+ /* carousel testimonial css  */
+ .testimonial_item{
+   border: 1px solid;
+   background-color:red;
+   min-width: 200px;
+   min-height: 250px;
+   max-width: 400px;
+   max-height: 500px;
+   margin:10px;
+   padding:5px;
+   box-shadow: 5px 10px 20px #ececf9 inset;
+ }
+ /* banner  */
+
+ @import url(https://fonts.googleapis.com/css?family=Rye);
+
+ body
+ { background: #EF8BD3; }
+
+ .banner {
+   position: absolute;
+   left: 20%;
+   display: block;
+   margin: 20px 20px;
+   width: 800px;
+   height: 60px;
+   border: 1px solid #8a1;
+   font: normal 20px/70px 'Rye';
+   text-align: center;
+   color: ;
+   background: #9b2;
+   border-radius: 4px;
+   box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+       				0 6px 10px rgba(0,0,0,.15);
+ }
+
+ .banner::before,
+ .banner::after {
+   content: '';
+   position: absolute;
+   z-index: -1;
+   left: -70px;
+   top: 24px;
+   display: block;
+   width: 40px;
+   height: 0px;
+   border: 30px solid #9b2;
+   border-right: 20px solid #791;
+   border-bottom-color: #94b81e;
+   border-left-color: transparent;
+   transform: rotate(-5deg);
+ }
+
+ .banner::after {
+   left: auto;
+   right: -70px;
+   border-left: 20px solid #791;
+   border-right: 30px solid transparent;
+   transform: rotate(5deg);
+ }
+
+	.backimage
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+    .banner-top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.live_booking{
+  max-width: 100%
+  height: auto;
+}
+.map{
+max-width: 700px;
+min-width: 500px;
+height: 300px;
+}
